@@ -39,7 +39,7 @@ def main():
         r = randrange(0, 6)
         c = S[r]
         print(c, end="")
-        buf = buf[1:5] + c
+        buf = buf[1:] + c
         i += 1
     print()
 
